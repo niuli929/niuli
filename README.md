@@ -13,6 +13,24 @@
 - 🎬 **抖音文案提取** — 视频 → 文字 → 知识库全自动流水线
 - 🌐 **个人服务器折腾** — 私有云、爬虫、SSH 隧道、翻墙代理
 
+## 项目文件
+
+| 文件 | 用途 |
+|------|------|
+| `tax_crawler.py` | 财税政策自动采集（国家税务总局） |
+| `douyin_auto.py` | 抖音视频下载 + 音频提取 |
+| `transcribe_small.py` | faster-whisper 语音转文字 |
+| `safe_store.py` | 防崩溃存储模块（SafeCollector + TaskJournal） |
+| `batch_pipeline.py` | 批量抖音文案提取流水线 |
+| `douyin_text.py` | 文案精简处理 |
+| `nls_transcribe.py` | 阿里云 NLS 实时语音转写 |
+| `dashscope_transcribe.py` | 阿里云 DashScope 语音转写 |
+| `nls_realtime.py` | 阿里云 NLS 实时流式转写 |
+| `nls_transcribe_safe.py` | NLS 安全版转写（防崩溃） |
+| `dashscope_transcribe_safe.py` | DashScope 安全版转写（防崩溃） |
+| `test_pipeline.py` | 流水线测试脚本 |
+| `client_form.py` | 共创坊客户登记表单（Flask） |
+
 ## 联系我
 
 - GitHub: [@niuli929](https://github.com/niuli929)
