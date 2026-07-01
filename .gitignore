@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# 敏感文件
+.env
+*.key
+*.pem
+credentials.json
+secrets.json
+client_secret*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 项目临时文件
+douyin_output/
+*.wav
+*.mp4
+*.pcm
+temp/
+/tmp/
+
+# Jupyter
+.ipynb_checkpoints/
