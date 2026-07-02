@@ -1,0 +1,39 @@
+# 产出数据（视频、音频、转写结果、Word文档）
+douyin_output/
+*.wav
+*.mp4
+*.mp3
+*.m4a
+*.pcm
+*.docx
+
+# 运行时状态
+*.json
+!package.json
+
+# 数据库
+*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# 临时
+*.tmp
+*.log
+
+# Git凭证（不要提交！）
+.git-credentials
+
+# WorkBuddy 项目记忆（本地数据，不公开）
+.workbuddy/
+
+# 已废弃
+douyin-copy-extractor.zip
